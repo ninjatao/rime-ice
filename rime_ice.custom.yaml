@@ -1,0 +1,4 @@
+patch:
+# Lua 配置: 置顶候选项
+  pin_cand_filter/+:
+    - ba	吧 把 爸
