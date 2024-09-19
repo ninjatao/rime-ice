@@ -14,10 +14,6 @@ recipe:
       - ziguang（紫光双拼）
 
 patch_files:
-  radical_pinyin.custom.yaml:
-    - patch/+:
-        speller/algebra:
-          __include: radical_pinyin.schema.yaml:/algebra_${schema:-flypy}
   melt_eng.custom.yaml:
     - patch/+:
         speller/algebra:
