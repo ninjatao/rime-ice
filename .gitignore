@@ -5,6 +5,7 @@ dist/
 
 build/
 sync/
+RimeSync/
 *.userdb/
 installation.yaml
 user.yaml
