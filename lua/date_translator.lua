@@ -23,7 +23,7 @@ function M.init(env)
     M.date = config:get_string(env.name_space .. '/date') or 'rq'
     M.time = config:get_string(env.name_space .. '/time') or 'sj'
     M.week = config:get_string(env.name_space .. '/week') or 'xq'
-    M.datetime = config:get_string(env.name_space .. '/datetime') or 'dt'
+    M.datetime = config:get_string(env.name_space .. '/datetime') or 'rqsj'
     M.timestamp = config:get_string(env.name_space .. '/timestamp') or 'ts'
     M.date_zh = config:get_string(env.name_space .. '/datezh') or 'rqzh'
     M.date_en = config:get_string(env.name_space .. '/dateen') or 'rqen'
